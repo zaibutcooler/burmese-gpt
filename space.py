@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("Simply say Uwu xD")
+    st.title("Burmese GPT")
 
     video_source = st.sidebar.radio("Select feature:", ("Audio Generator", "Text Predictor",))
 
