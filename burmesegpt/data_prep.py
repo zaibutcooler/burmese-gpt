@@ -2,12 +2,12 @@
 from datasets import load_dataset
 from torch.utils.data import Dataset
 
-dataset = load_dataset("")
 
 class Data(Dataset):
-    def __init__(self,trainset):
+    def __init__(self):
         super().__init__()
-        self.trainset = trainset
+        self.texts = None
+        self.data
 
     def __len__(self):
         return None

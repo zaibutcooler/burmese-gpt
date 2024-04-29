@@ -1,1 +1,1 @@
-from .main import BurmeseGpt
+from .core import BurmeseGpt
